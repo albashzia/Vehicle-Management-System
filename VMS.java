@@ -8,6 +8,11 @@ abstract class Vehicle{
     Driver assignedDriver;
 }
 
+class Car extends Vehicle{
+    int seats;
+    boolean automatic;
+}
+
 class Driver{
     int driverId;
     String name;
