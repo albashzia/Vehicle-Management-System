@@ -1,4 +1,4 @@
-class Vehicle{
+abstract class Vehicle{
     int id;
     String numberPlate;
     String brand;
@@ -6,4 +6,12 @@ class Vehicle{
     String regYear;
     String mileage;
 
+}
+
+class Driver{
+    int driverId;
+    String name;
+    String licenseNumber;
+    String phone;
+    String role;
 }
