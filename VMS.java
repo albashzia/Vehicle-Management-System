@@ -5,7 +5,7 @@ abstract class Vehicle{
     String model;
     String regYear;
     String mileage;
-
+    Driver assignedDriver;
 }
 
 class Driver{
