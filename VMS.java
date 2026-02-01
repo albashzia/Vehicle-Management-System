@@ -13,6 +13,10 @@ class Car extends Vehicle{
     boolean automatic;
 }
 
+class Bike extends Vehicle{
+    int engineCC;
+}
+
 class Driver{
     int driverId;
     String name;
