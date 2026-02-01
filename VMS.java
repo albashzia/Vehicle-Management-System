@@ -21,6 +21,12 @@ class Truck extends Vehicle{
     int loadCapacityTons;
 }
 
+class Engine{
+    String engineNo;
+    String fuelType;
+    int horsepower;
+}
+
 class Driver{
     int driverId;
     String name;
