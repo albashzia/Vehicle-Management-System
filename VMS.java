@@ -17,6 +17,10 @@ class Bike extends Vehicle{
     int engineCC;
 }
 
+class Truck extends Vehicle{
+    int loadCapacityTons;
+}
+
 class Driver{
     int driverId;
     String name;
