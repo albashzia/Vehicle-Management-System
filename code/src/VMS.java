@@ -5,7 +5,8 @@ abstract class Vehicle{
     String model;
     String regYear;
     String mileage;
-    Driver assignedDriver;
+    Driver assignedDriver;              //HAS-A composition
+    Engine engine;                      //HAS-A composition
 }
 
 class Car extends Vehicle{
