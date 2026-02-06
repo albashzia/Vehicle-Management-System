@@ -8,6 +8,7 @@ abstract class Vehicle{
     Driver assignedDriver;              //HAS-A composition
     Engine engine;                      //HAS-A composition
     abstract void vehicleType();
+    abstract double calculateTax();
     }
 
 class Car extends Vehicle{
@@ -18,6 +19,11 @@ class Car extends Vehicle{
     void vehicleType() {
         System.out.println("Car");
     }
+
+    @Override
+    double calculateTax() {
+        return 1000;
+    }
 }
 
 class Bike extends Vehicle{
@@ -27,6 +33,11 @@ class Bike extends Vehicle{
     void vehicleType() {
         System.out.println("Bike");
     }
+
+    @Override
+    double calculateTax() {
+        return 500;
+    }
 }
 
 class Truck extends Vehicle{
@@ -35,6 +46,11 @@ class Truck extends Vehicle{
     @Override
     void vehicleType() {
         System.out.println("Truck");
+    }
+
+    @Override
+    double calculateTax() {
+        return 2000;
     }
 }
 
