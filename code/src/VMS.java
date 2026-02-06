@@ -7,19 +7,35 @@ abstract class Vehicle{
     String mileage;
     Driver assignedDriver;              //HAS-A composition
     Engine engine;                      //HAS-A composition
-}
+    abstract void vehicleType();
+    }
 
 class Car extends Vehicle{
     int seats;
     boolean automatic;
+
+    @Override
+    void vehicleType() {
+        System.out.println("Car");
+    }
 }
 
 class Bike extends Vehicle{
     int engineCC;
+
+    @Override
+    void vehicleType() {
+        System.out.println("Bike");
+    }
 }
 
 class Truck extends Vehicle{
     int loadCapacityTons;
+
+    @Override
+    void vehicleType() {
+        System.out.println("Truck");
+    }
 }
 
 class Engine{
