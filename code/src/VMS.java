@@ -104,9 +104,9 @@ class Driver{
 
 class VMS{
     public static void main(String[] args) {
-        Car c1 = new Car();
-        Bike b1 = new Bike();
-        Truck t1 = new Truck();
+//        Car c1 = new Car();
+//        Bike b1 = new Bike();
+//        Truck t1 = new Truck();
         Driver d1 = new Driver();
     }
 }
