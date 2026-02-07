@@ -70,6 +70,13 @@ class Bike extends Vehicle{
 class Truck extends Vehicle{
     int loadCapacityTons;
 
+    Truck(int id, String numberPlate, String brand, String model,
+          String regYear, String mileage, Engine engine,
+          int loadCapacityTons) {
+        super(id, numberPlate, brand, model, regYear, mileage, engine);
+        this.loadCapacityTons = loadCapacityTons;
+    }
+
     @Override
     void vehicleType() {
         System.out.println("Truck");
