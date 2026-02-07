@@ -49,6 +49,13 @@ class Car extends Vehicle{
 class Bike extends Vehicle{
     int engineCC;
 
+    Bike(int id, String numberPlate, String brand, String model,
+         String regYear, String mileage, Engine engine,
+         int engineCC) {
+        super(id, numberPlate, brand, model, regYear, mileage, engine);
+        this.engineCC = engineCC;
+    }
+
     @Override
     void vehicleType() {
         System.out.println("Bike");
