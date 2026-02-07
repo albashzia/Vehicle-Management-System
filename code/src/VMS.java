@@ -7,6 +7,18 @@ abstract class Vehicle{
     String mileage;
     Driver assignedDriver;              //HAS-A composition
     Engine engine;                      //HAS-A composition
+
+    Vehicle(int id, String numberPlate, String brand, String model,
+            String regYear, String mileage, Engine engine) {
+        this.id = id;
+        this.numberPlate = numberPlate;
+        this.brand = brand;
+        this.model = model;
+        this.regYear = regYear;
+        this.mileage = mileage;
+        this.engine = engine;
+    }
+
     abstract void vehicleType();
     abstract double calculateTax();
     }
