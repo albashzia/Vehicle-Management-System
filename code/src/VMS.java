@@ -27,6 +27,14 @@ class Car extends Vehicle{
     int seats;
     boolean automatic;
 
+    Car(int id, String numberPlate, String brand, String model,
+        String regYear, String mileage, Engine engine,
+        int seats, boolean automatic) {
+        super(id, numberPlate, brand, model, regYear, mileage, engine);
+        this.seats = seats;
+        this.automatic = automatic;
+    }
+
     @Override
     void vehicleType() {
         System.out.println("Car");
