@@ -26,6 +26,10 @@ abstract class Vehicle{
         this.assignedDriver = driver;
     }
 
+    void unassignDriver(){
+        this.assignedDriver = null;
+    }
+
     }
 
 class Car extends Vehicle{
