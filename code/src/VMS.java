@@ -21,6 +21,11 @@ abstract class Vehicle{
 
     abstract void vehicleType();
     abstract double calculateTax();
+
+    void assignDriver(Driver driver){
+        this.assignedDriver = driver;
+    }
+
     }
 
 class Car extends Vehicle{
