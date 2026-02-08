@@ -139,6 +139,7 @@ class Driver{
 }
 
 class VehicleService{
+    ArrayList<Vehicle> vehicles = new ArrayList<>();
 
 }
 
