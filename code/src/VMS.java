@@ -141,6 +141,9 @@ class Driver{
 class VehicleService{
     ArrayList<Vehicle> vehicles = new ArrayList<>();
 
+    void addVehicle(Vehicle v){
+        vehicles.add(v);
+    }
 }
 
 class VMS{
