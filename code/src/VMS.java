@@ -111,6 +111,12 @@ class Engine{
     String engineNo;
     String fuelType;
     int horsepower;
+
+    Engine(String engineNo, String fuelType, int horsepower){
+        this.engineNo = engineNo;
+        this.fuelType = fuelType;
+        this.horsepower = horsepower;
+    }
 }
 
 class Driver{
