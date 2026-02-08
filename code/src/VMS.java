@@ -30,6 +30,16 @@ abstract class Vehicle{
         this.assignedDriver = null;
     }
 
+    void displayInfo(){
+        System.out.println("ID: " + id +
+                " | Plate: " + numberPlate +
+                " | Brand: " + brand +
+                " | Model: " + model +
+                " | Year: " + regYear +
+                " | Mileage: " + mileage +
+                " | Driver: " + (assignedDriver != null ? assignedDriver.name : "None"));
+    }
+
     }
 
 class Car extends Vehicle{
