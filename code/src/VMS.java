@@ -144,6 +144,16 @@ class VehicleService{
     void addVehicle(Vehicle v){
         vehicles.add(v);
     }
+
+    Vehicle findVehicle(int id){
+        for(Vehicle v : vehicles){
+            if(v.id == id){
+                return v;
+            }
+        }
+        return null;
+    }
+
 }
 
 class VMS{
