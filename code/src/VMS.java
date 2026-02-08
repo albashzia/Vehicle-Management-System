@@ -125,6 +125,15 @@ class Driver{
     String licenseNumber;
     String phone;
     String role;
+
+    Driver(int driverId, String name, String licenseNumber, String phone, String role){
+        this.driverId = driverId;
+        this.name = name;
+        this.licenseNumber = licenseNumber;
+        this.phone = phone;
+        this.role = role;
+    }
+
 }
 
 class VMS{
@@ -132,6 +141,6 @@ class VMS{
 //        Car c1 = new Car();
 //        Bike b1 = new Bike();
 //        Truck t1 = new Truck();
-        Driver d1 = new Driver();
+        //Driver d1 = new Driver();
     }
 }
