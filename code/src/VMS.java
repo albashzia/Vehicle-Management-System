@@ -167,6 +167,7 @@ class VehicleService{
 
 class VMSManager{
     VehicleService vehicleService = new VehicleService();
+    Scanner sc = new Scanner(System.in);
 }
 
 class VMS{
