@@ -166,7 +166,7 @@ class VehicleService{
 }
 
 class VMSManager{
-
+    VehicleService vehicleService = new VehicleService();
 }
 
 class VMS{
