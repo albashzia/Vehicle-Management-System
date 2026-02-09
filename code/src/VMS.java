@@ -175,6 +175,12 @@ class VMSManager{
         vehicleService.addVehicle(c);
     }
 
+    void addBike(){
+        Engine e = new Engine("E" + System.currentTimeMillis(), "Petrol", 150);
+        Vehicle b = new Bike(2, "XYZ-789", "Honda", "CD70", "2021", "8000", e, 70);
+        vehicleService.addVehicle(b);
+    }
+
 }
 
 class VMS{
