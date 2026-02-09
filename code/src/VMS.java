@@ -154,6 +154,15 @@ class VehicleService{
         return null;
     }
 
+    void displayAllVehicles(){
+        for(Vehicle v : vehicles){
+            v.vehicleType();
+            v.displayInfo();
+            System.out.println("Tax: " + v.calculateTax());
+            System.out.println("--------------------------------");
+        }
+    }
+
 }
 
 class VMS{
