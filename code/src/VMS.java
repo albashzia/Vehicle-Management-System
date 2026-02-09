@@ -181,6 +181,12 @@ class VMSManager{
         vehicleService.addVehicle(b);
     }
 
+    void addTruck(){
+        Engine e = new Engine("E" + System.currentTimeMillis(), "Diesel", 400);
+        Vehicle t = new Truck(3, "TRK-456", "Hino", "500", "2020", "50000", e, 10);
+        vehicleService.addVehicle(t);
+    }
+
 }
 
 class VMS{
