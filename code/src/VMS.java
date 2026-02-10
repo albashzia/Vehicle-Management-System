@@ -184,7 +184,7 @@ class VMSManager{
             if(choice == 1) addCar();
             else if(choice == 2) addBike();
             else if(choice == 3) addTruck();
-
+            else if(choice == 4) vehicleService.displayAllVehicles();
         }
     }
 
