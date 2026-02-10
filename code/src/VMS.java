@@ -179,6 +179,8 @@ class VMSManager{
 
             int choice = sc.nextInt();
             sc.nextLine();
+
+            if(choice == 0) break;
         }
     }
 
