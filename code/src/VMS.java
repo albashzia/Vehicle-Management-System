@@ -1,5 +1,13 @@
 import java.util.*;
 
+/**
+ * Represents a generic Vehicle in the management system.
+ * This is an abstract class that provides a blueprint for specific vehicle types.
+ * * Relationships:
+ * - HAS-A Engine (Composition)
+ * - HAS-A Driver (Aggregation/Association)
+ */
+
 abstract class Vehicle{
     int id;
     String numberPlate;
