@@ -214,5 +214,6 @@ class VMS{
 //        Bike b1 = new Bike();
 //        Truck t1 = new Truck();
         //Driver d1 = new Driver();
+        VMSManager manager = new VMSManager();
     }
 }
