@@ -183,6 +183,8 @@ class VMSManager{
             if(choice == 0) break;
             if(choice == 1) addCar();
             else if(choice == 2) addBike();
+            else if(choice == 3) addTruck();
+
         }
     }
 
