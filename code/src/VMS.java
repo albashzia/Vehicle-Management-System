@@ -170,7 +170,16 @@ class VMSManager{
     Scanner sc = new Scanner(System.in);
 
     void start(){
+        while(true){
+            System.out.println("\n1. Add Car");
+            System.out.println("2. Add Bike");
+            System.out.println("3. Add Truck");
+            System.out.println("4. View Vehicles");
+            System.out.println("0. Exit");
 
+            int choice = sc.nextInt();
+            sc.nextLine();
+        }
     }
 
     void addCar(){
