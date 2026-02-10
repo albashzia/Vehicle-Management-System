@@ -181,6 +181,8 @@ class VMSManager{
             sc.nextLine();
 
             if(choice == 0) break;
+            if(choice == 1) addCar();
+
         }
     }
 
