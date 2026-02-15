@@ -160,6 +160,20 @@ class Truck extends Vehicle{
     }
 }
 
+/**
+ * Represents an Engine component used by a Vehicle in the management system.
+ * This class stores essential engine details required for vehicle identification
+ * and performance description.
+ *
+ * Responsibilities:
+ * - Stores engine number for unique identification.
+ * - Stores fuel type used by the engine.
+ * - Stores horsepower rating of the engine.
+ *
+ * Relationships:
+ * - Part of Vehicle (Composition — Vehicle HAS-A Engine)
+ */
+
 class Engine{
     String engineNo;
     String fuelType;
