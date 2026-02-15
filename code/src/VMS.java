@@ -186,6 +186,20 @@ class Engine{
     }
 }
 
+/**
+ * Represents a Driver associated with a Vehicle in the management system.
+ * This class stores driver identification and contact information along with their role.
+ *
+ * Responsibilities:
+ * - Stores unique driver ID for identification.
+ * - Stores driver name and license details.
+ * - Stores contact information such as phone number.
+ * - Stores role or designation of the driver.
+ *
+ * Relationships:
+ * - Associated with Vehicle (Association — Vehicle may have a Driver)
+ */
+
 class Driver{
     int driverId;
     String name;
