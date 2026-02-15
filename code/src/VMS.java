@@ -217,6 +217,21 @@ class Driver{
 
 }
 
+/**
+ * Represents a service layer responsible for managing Vehicle objects
+ * within the management system. This class provides operations to store,
+ * search, and display vehicles along with their details.
+ *
+ * Responsibilities:
+ * - Maintains a collection of vehicles.
+ * - Adds new vehicles to the system.
+ * - Searches for a vehicle by its ID.
+ * - Displays information and tax details for all vehicles.
+ *
+ * Relationships:
+ * - MANAGES multiple Vehicle objects (Aggregation — uses a collection of Vehicles)
+ */
+
 class VehicleService{
     ArrayList<Vehicle> vehicles = new ArrayList<>();
 
