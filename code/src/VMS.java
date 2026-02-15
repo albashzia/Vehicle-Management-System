@@ -125,6 +125,20 @@ class Bike extends Vehicle{
     }
 }
 
+/**
+ * Represents a Truck as a specific type of Vehicle in the management system.
+ * This class extends Vehicle and includes truck-specific details such as load capacity.
+ *
+ * Responsibilities:
+ * - Defines the vehicle type as Truck.
+ * - Provides a fixed tax calculation for trucks.
+ * - Stores load capacity in tons for operational classification.
+ *
+ * Relationships:
+ * - IS-A Vehicle (Inheritance)
+ * - HAS-A Engine (via Vehicle)
+ */
+
 class Truck extends Vehicle{
     int loadCapacityTons;
 
