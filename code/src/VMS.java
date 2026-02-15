@@ -90,6 +90,20 @@ class Car extends Vehicle{
     }
 }
 
+/**
+ * Represents a Bike as a specific type of Vehicle in the management system.
+ * This class extends Vehicle and includes bike-specific information such as engine capacity.
+ *
+ * Responsibilities:
+ * - Defines the vehicle type as Bike.
+ * - Provides a fixed tax calculation for bikes.
+ * - Stores engine capacity in CC for classification purposes.
+ *
+ * Relationships:
+ * - IS-A Vehicle (Inheritance)
+ * - HAS-A Engine (via Vehicle)
+ */
+
 class Bike extends Vehicle{
     int engineCC;
 
