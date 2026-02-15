@@ -52,6 +52,21 @@ abstract class Vehicle{
 
     }
 
+/**
+ * Represents a Car as a specific type of Vehicle in the management system.
+ * This class extends Vehicle and adds car-specific attributes like seating
+ * capacity and transmission type.
+ *
+ * Responsibilities:
+ * - Defines the vehicle type as Car.
+ * - Provides a fixed tax calculation for cars.
+ * - Stores additional details such as number of seats and whether the car is automatic.
+ *
+ * Relationships:
+ * - IS-A Vehicle (Inheritance)
+ * - HAS-A Engine (via Vehicle)
+ */
+
 class Car extends Vehicle{
     int seats;
     boolean automatic;
