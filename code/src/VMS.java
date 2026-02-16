@@ -295,6 +295,10 @@ class VMSManager{
         }
     }
 
+    /**
+     * Creates a Car object with engine details and registers it
+     * into the vehicle service collection.
+     */
     void addCar(){
         Engine e = new Engine("E" + System.currentTimeMillis(), "Petrol", 120);
         Vehicle c = new Car(1, "ABC-123", "Toyota", "Corolla", "2022", "15000", e, 5, true);
