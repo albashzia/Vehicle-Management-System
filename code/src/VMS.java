@@ -315,6 +315,17 @@ class VMSManager{
 
 }
 
+/**
+ * Entry point of the Vehicle Management System application.
+ * This class initializes the manager and starts the program workflow.
+ *
+ * Responsibilities:
+ * - Launches the system.
+ * - Triggers the interactive menu loop.
+ *
+ * Relationships:
+ * - USES VMSManager to control application execution
+ */
 class VMS{
     public static void main(String[] args) {
         VMSManager manager = new VMSManager();
