@@ -315,6 +315,10 @@ class VMSManager{
         vehicleService.addVehicle(b);
     }
 
+    /**
+     * Creates a Truck object with engine details and stores it
+     * in the vehicle service for tracking.
+     */
     void addTruck(){
         Engine e = new Engine("E" + System.currentTimeMillis(), "Diesel", 400);
         Vehicle t = new Truck(3, "TRK-456", "Hino", "500", "2020", "50000", e, 10);
