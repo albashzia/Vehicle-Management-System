@@ -258,7 +258,20 @@ class VehicleService{
     }
 
 }
-
+/**
+ * Acts as the controller of the Vehicle Management System.
+ * This class handles user interaction, menu navigation, and coordinates
+ * operations between the user and the VehicleService layer.
+ *
+ * Responsibilities:
+ * - Displays menu options and processes user input.
+ * - Delegates vehicle creation tasks to specific methods.
+ * - Uses VehicleService to store and display vehicle data.
+ *
+ * Relationships:
+ * - USES VehicleService (Delegation)
+ * - CREATES Vehicle, Engine objects
+ */
 class VMSManager{
     VehicleService vehicleService = new VehicleService();
     Scanner sc = new Scanner(System.in);
